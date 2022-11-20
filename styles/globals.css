@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #0f1829;
+  }
+
+.title{
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-fuchsia-600 text-8xl
+}
+
+.span{
+    @apply
+bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-fuchsia-600 text-3xl
+}
+
+.bgslate{
+    @apply bg-slate-900 text-slate-900
+}
+
+.label{
+    @apply mt-1 flex w-full justify-center items-center text-white rounded-lg text-white focus:outline-slate-300 
+}
+
+.input{
+    @apply rounded-lg w-1/4 mt-3 ml-3 px-3 py-2 text-white focus:outline-slate-300 bg-gradient-to-r from-violet-900 to-fuchsia-600 placeholder-slate-100
+}
+
+.btn{
+    @apply bg-indigo-600 rounded-full text-center text-3xl  items-center w-2/6 py-3 mb-9 mt-1
+}
+
